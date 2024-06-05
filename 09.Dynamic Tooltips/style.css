@@ -44,6 +44,8 @@ body {
     visibility: visible;
   }
 
+  /* style for bottom arrow */
+
   .tooltip .tooltiptext::before {
     content: "";
     position: absolute;
