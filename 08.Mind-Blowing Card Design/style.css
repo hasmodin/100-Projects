@@ -61,3 +61,68 @@ body {
 .card:hover {
     color: #fff;
 }
+
+/* second image stytle */
+
+
+.card1 {
+    position: relative;
+    left: 40rem;
+    bottom: 5rem;
+    width: 30rem;
+    height: 30rem;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card1::before,
+.card1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    transition: 1s;
+    z-index: -1;
+
+}
+
+.card1:hover:before {
+    transform: rotate(20deg);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card1:hover:after  {
+    transform: rotate(10deg);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.imgBox {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+    background-color: #000;
+    transition: 1s;
+    z-index: 2;
+}
+
+.card1:hover .imgBox {
+    bottom: 80px;
+}
+.imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.details {
+    position: absolute;
+    left: 12rem;
+    bottom: 30px;
+}
