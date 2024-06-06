@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #000;
+}
+
+#content-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+#content-container #content {
+    width: 50%;
+    border: 2px solid #fff;
+    color: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    line-height: 1.5;
+
+}
+
+#content h1 {
+    padding-bottom: 1rem;
+}
+
+.scroll-indicator {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    border-radius: .4rem;
+    height: 0.5rem;
+
+}
+
+.scroll-indicator .progressbar {
+    background: linear-gradient(20deg, #FF2525, #FFE53B);
+    border-radius: 0.4rem;
+    height: 100%;
+    width: 0;
+    transform: width 0.1s;
+   
+
+}
