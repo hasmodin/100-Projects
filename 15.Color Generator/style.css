@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.color-genrator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    
+}
+
+button {
+    padding: 1rem 2rem;
+    border: none;
+    box-shadow: 1px 1px 6px black;
+}
+
+.color-container {
+    width: 500px;
+    display: flex;
+    
+    justify-content: center;
+    height: 10rem;
+    box-shadow: 1px 1px 6px black;
+    margin-top: 2rem;
+}
