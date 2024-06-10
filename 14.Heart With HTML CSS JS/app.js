@@ -15,4 +15,5 @@ redHeart.addEventListener('click', () => {
 
     redHeart.classList.remove('animation');
     grayHeart.classList.remove('fill-color');
-})
+});
+

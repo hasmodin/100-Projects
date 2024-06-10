@@ -36,3 +36,5 @@ btn.addEventListener('click', () => {
     colorContainer.style.backgroundColor = getRandomColor();
     heading.innerText = getRandomColor();
 })
+
+

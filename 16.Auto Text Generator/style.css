@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100Vh;
+    background-color: #000;
+    color: #fff;
+}
+
+.js {
+    font-size: 2rem;
+    color: yellow;
+
+}
+
+.typed.text {
+    color: #20c20e;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.cursor {
+    color: #20c20e;
+    
+}
